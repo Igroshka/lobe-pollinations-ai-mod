@@ -12,7 +12,7 @@
             "type": "string"
           },
           "params": {
-            "description": "{params} is: width={width}&height={height}&seed={seed}\n\nDon't ask the user for params if he does not provide them. Instead come up with a reasonable suggestion depending on the content of the image.\nThe seed is used to create variations of the same image.\nNeed to use English.",
+            "description": "{params} is: width={width}&height={height}&seed={seed}\n\nDon't ask the user for params if he does not provide them. Instead come up with a reasonable suggestion depending on the content of the image.\nThe seed is used to create variations of the same image.\n Use by default (if the user asks, then don't write): &nologo=true&nofeed=true\nNeed to use English.",
             "type": "string"
           }
         },
@@ -21,12 +21,12 @@
       }
     }
   ],
-  "identifier": "pollinations-drawing",
+  "identifier": "rn-pollinations-drawing",
   "meta": {
-    "avatar": "🎨",
+    "avatar": "🖼️",
     "tags": ["drawing"],
-    "title": "授粉 AI 画图",
-    "description": "通过 pollinations.ai 进行图像生成"
+    "title": "Pollinations.ai Mod",
+    "description": "Modifying the plugin Pollinations, with additional functionality"
   },
   "type": "markdown",
   "version": "1"
